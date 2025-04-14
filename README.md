@@ -1,1 +1,1 @@
-# Facial_Recognition_CNN
+# Medical_img_diag
