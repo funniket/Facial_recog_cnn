@@ -1,0 +1,10 @@
+numpy 
+pandas
+kagglehub
+tensorflow
+scikit-learn
+opencv-python
+flask
+matplotlib
+
+-e .
