@@ -29,6 +29,6 @@ def predict_image(image_path, model_path="cnn_face_recognition_model.h5", data_d
     return predicted_class
 
 if __name__ == '__main__':
-    test_image_path = "C:/Users/anike/OneDrive/Desktop/Ishant gupta class/Facial_recog_cnn/leo.jpg"  # Replace with your image path.
+    test_image_path = "C:/Users/anike/OneDrive/Desktop/Ishant gupta class/Facial_recog_cnn/lopez.jpg"  # Replace with your image path.
     prediction = predict_image(test_image_path)
     print("Predicted class:", prediction)

@@ -1,6 +1,6 @@
 # feature_engineering.py
 import numpy as np
-from preprocessing import load_lfw_funneled_data, clean_and_resize_images, normalize_images, augment_images
+from tfds_preprocessing import load_lfw_funneled_data, clean_and_resize_images, normalize_images, augment_images
 
 data_dir = r"data"
 images, numeric_labels, le = load_lfw_funneled_data(data_dir)

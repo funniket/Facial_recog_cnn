@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import pandas as pd
-from preprocessing import load_lfw_funneled_data, clean_and_resize_images, normalize_images
+from tfds_preprocessing import load_lfw_funneled_data, clean_and_resize_images, normalize_images
 
 # Set the path to your extracted data.
 data_dir = r"data"
