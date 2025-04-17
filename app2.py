@@ -1,11 +1,6 @@
 import streamlit as st
 import numpy as np
-# import cv2
-try:
-    import cv2
-except ImportError:
-    !pip install opencv-python
-    import cv2
+import cv2
 import tensorflow as tf
 from PIL import Image
 import os
